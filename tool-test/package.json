@@ -11,7 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@langchain/core": "^1.2.18",
     "@langchain/openai": "^1.6.2",
-    "dotenv": "^18.0.8"
+    "dotenv": "^18.0.8",
+    "zod": "^4.6.7"
   }
 }

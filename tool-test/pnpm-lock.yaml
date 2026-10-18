@@ -8,12 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@langchain/core':
+        specifier: ^1.2.18
+        version: 1.2.18(openai@7.34.0(zod@4.6.7))
       '@langchain/openai':
         specifier: ^1.6.2
         version: 1.6.2(@langchain/core@1.2.18(openai@7.34.0(zod@4.6.7)))
       dotenv:
         specifier: ^18.0.8
         version: 18.0.8
+      zod:
+        specifier: ^4.6.7
+        version: 4.6.7
 
 packages:
 
